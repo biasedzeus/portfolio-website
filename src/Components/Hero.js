@@ -17,7 +17,7 @@ const Hero = () => {
                 <p>Developer | Designer</p>
             </div>
 
-            <button>
+            <button className="resume-button">
                 Resume
             </button>
         </div>
