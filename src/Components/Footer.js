@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="footer-container">
             <div></div>
             <hr/>
-            <div className="contact-container">
+            <div className="contactUS-container">
              <div class="contact-item"><a href=""><img src="" alt=""/></a></div> 
              <div class="contact-item"><a href=""><img src="" alt=""/></a></div> 
              <div class="contact-item"><a href=""><img src="" alt=""/></a></div> 
