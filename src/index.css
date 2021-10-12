@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Acme', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Candara';
@@ -10,10 +8,15 @@ body {
 }
 
 html{
-  background: rgb(127,30,179) ;
-  background: linear-gradient(180deg, rgba(127,30,179,1) 0%, rgba(50,72,179,1) 50%,rgba(0,0,0,1) 100%) !important;
+
+  background: rgb(147,79,236);
+  background: linear-gradient(180deg, rgba(147,79,236,1) 0%, rgba(11,137,248,1) 14%, rgba(147,79,236,1) 65%, rgba(11,137,248,1) 80%, rgba(6,6,6,1) 100%);
 }
 
+
+
+
+/* // HERO PAGE/ */
 .hero-container{
   height: 100vh;
   
@@ -28,16 +31,63 @@ html{
 }
 
 .list-item{
-  padding: 10px;
+  padding: 20px;
+  font-size: larger;
+
 }
+i{
+  margin-bottom: 10px;
+}
+
+.devdes-container{
+  font-size: 6.2rem;
+  font-weight: 900;
+  color: transparent;
+  /* -webkit-text-fill-color: black; */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;}
+
+  .devdes-container:hover{
+     
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    transition: 5000ms ease-in-out;
+     cursor: pointer;}
+  
+
+
+
 .resume-button{
   padding: 10px 30px;
   margin: 20px;
   border-radius: 20px;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 900;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   box-shadow: #000 2px;
+  border-style: none;
 
+
+}
+.resume-button:hover{
+  transform: scale(1.1);
+  transition: 200ms ease-in-out;
+
+}
+
+.name-cont-wrapper{
+  margin-top: 40px;
+  padding-left: 20px;
+  width: 80vw;
+}
+
+h1{
+  font-size: 7.2rem;
+  font-weight: 900;
+  margin: 10px;
+}
+p{
+  margin: 10px;
 
 }
