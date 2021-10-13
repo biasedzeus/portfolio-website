@@ -7,7 +7,14 @@
 - Axios
 - three.js fibre
 - framer-motion
-- 
+
+
+
+
+
+## About Cards with Info 
+![image](https://user-images.githubusercontent.com/59247235/137151334-74bc0b3f-0457-4ad9-8434-e01e8c55ab07.png)
+
 
 # 2nd Prototype
 
