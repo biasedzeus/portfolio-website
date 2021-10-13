@@ -6,23 +6,24 @@ const Hero = () => {
     return (
         <div className = "hero-container">
             <div className="list-wrapper">
-                <li class="list-item">Contact</li>
-                <li class="list-item">Projects</li>
-                <li class="list-item">Resume</li>
+                <li className="list-item">Contact</li>
+                <li className="list-item">Projects</li>
+                <li className="list-item">Resume</li>
             </div>
 
-            <div class="name-cont-wrapper">
+            <div className="name-cont-wrapper">
                 <h3><i>Hi I am,</i></h3>
                 <h1>Bhanu Singh</h1>
-                <div class="devdes-container">
+                <div className="devdes-container">
                 <p>Developer | Designer</p>
             </div>
-            <div class="button-git-link">
+            <div className="button-git-link">
             <button className="resume-button">
                 Resume
             </button>
-            <img src={github} alt="" srcset=""/>
-            <img src={linkedIn} alt="" srcset=""/>
+            <a href="https://github.com/biasedzeus" target="_blank" ><img className="github-logo" src={github} alt="" srcset=""/></a>
+            <span className="spanned-line">|</span>
+            <a href ="https://linkedin.com/bhanusingh" target="_blank"><img className ="linkedIn-logo" src={linkedIn} alt="" srcset=""/></a>
             </div>
 
             </div>
