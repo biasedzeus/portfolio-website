@@ -1,0 +1,16 @@
+.text-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: white;
+
+}
+
+.first-line{
+    font-style: italic;
+}
+
+.second-line{
+    font-weight: bolder;
+}
