@@ -1,0 +1,52 @@
+.project-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    font-size: 1.1em;
+    transition: 300mx ease-in;
+}
+
+#recentWork{
+    color: white;
+    font-size: 5.4em;
+    text-shadow: #3333 4px 4px 5px;
+}
+#paraWork{
+    font-size: 2rem;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.project-item{
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+  
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(48, 50, 50, 0.23);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(48, 50, 50, 0.23);
+    box-shadow:         7px 7px 5px 0px rgba(48, 50, 50, 0.23);
+}
