@@ -1,8 +1,11 @@
+.what-i-do-container{
+    margin-top:10%;
+}
 .text-holder{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5rem;
+    font-size: 5vw;
     color: white;
 
 }
@@ -13,4 +16,10 @@
 
 .second-line{
     font-weight: bolder;
+}
+
+.card-holder{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
 }
