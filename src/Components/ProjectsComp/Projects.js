@@ -8,7 +8,7 @@ const Projects = () => {
         <div>
              <div class="project-text">
             <h1 id="recentWork">My Recent Work</h1>
-            <h3 id ="paraWork">Here are few design products I've worked on recently.Want to see more? <a href="www.google.com" target="_blank">Email me</a></h3>
+            <h3 id ="paraWork">Here are few design products I've worked on recently.Want to see more? <a id= "email-me" href="www.google.com" target="_blank">Email me</a></h3>
             </div>
             <div class="projects-container">
                 <div class="project-item">

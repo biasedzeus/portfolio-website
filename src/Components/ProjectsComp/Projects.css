@@ -7,13 +7,13 @@
     font-size: 1.2em;
 }
 
-a{
+#email-me{
     color: white;
     text-decoration: none;
 }
 
-a:hover{
-    color: black;
+#email-me:hover{
+    color:gray;
     font-size: 1.1em;
     transition: 300mx ease-in;
 }
