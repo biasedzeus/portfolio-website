@@ -1,0 +1,120 @@
+/* // HERO PAGE/ */
+.hero-container{
+    height: 100vh;
+    
+  }
+  .list-wrapper{
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color:white;
+    font-family: 'Candara';
+  }
+  
+  .list-item{
+    padding: 20px;
+    font-size: larger;
+  
+  }
+  .list-item:hover{
+    font-weight: bold;
+    transition: 500ms ease-in;
+    cursor: pointer;
+  
+  }
+  
+  
+  i{margin-left: 25px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 2.3rem;
+    color:white
+  }
+  
+  .devdes-container{
+    font-size: 6.2rem;
+    font-weight: 900;
+    color: transparent;
+    /* -webkit-text-fill-color: black; */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;}
+  
+    .devdes-container:hover{
+       
+      -webkit-text-fill-color: white;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: white;
+      transition: 5000ms ease-in-out;
+       cursor: pointer;}
+    
+  
+  
+  
+  .resume-button{
+    height: 20%;
+    width: 30%;
+    size: 2.3em;
+    padding: 20px 30px;
+    margin: 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family:Acme, Geneva, Tahoma, sans-serif;
+    box-shadow: #000 2px;
+    font-size: 2.3em;
+    border-style: none;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(48, 50, 50, 0.23);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(48, 50, 50, 0.23);
+  box-shadow:         7px 7px 5px 0px rgba(48, 50, 50, 0.23);
+    
+  
+  }
+  .resume-button:hover{
+    transform: scale(1.1);
+    transition: 200ms ease-in-out;
+  
+  }
+  
+  .name-cont-wrapper{
+    margin-top: 10vw;
+    padding-left: 5vw;
+    width: 60vw;
+  }
+  
+  #authorName{
+    height: fit-content;
+    font-size: 1200%;
+    color: white;
+    font-weight: 900;
+    margin: 10px;
+    text-shadow: #000 8px 10px 10px;
+  }
+  
+  
+  p{
+    margin: 10px;
+    margin-bottom: 50px;
+  
+  
+  }
+  
+  img{
+  max-width: 100%;
+  height: 80px;
+  margin: 20px;
+  }
+  
+  .button-git-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .spanned-line{
+    color:white;
+    font-size: 3rem;
+    margin-right: 20px;
+  
+  
+  }
