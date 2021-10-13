@@ -9,6 +9,8 @@
 - framer-motion
 
 
+## Projects Card
+![image](https://user-images.githubusercontent.com/59247235/137170312-7cfc0ac3-1f79-4986-8d38-1c0dc55ca213.png)
 
 
 
