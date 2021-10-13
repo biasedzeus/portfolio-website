@@ -12,14 +12,14 @@ const Projects = () => {
             </div>
             <div class="projects-container">
                 <div class="project-item">
-                    <img src={img} alt="" srcset=""/>
+                    <img id="project-image" src={img} alt="" srcset=""/>
                 </div>
                 <div class="project-item">
-                    <a href=""><img src={img} alt="" srcset=""/></a>
+                    <a href=""><img id="project-image" src={img} alt="" srcset=""/></a>
                 </div>  <div class="project-item">
-                    <img src={img} alt="" srcset=""/>
+                    <img id="project-image" src={img} alt="" srcset=""/>
                 </div>  <div class="project-item">
-                    <img src={img} alt="" srcset=""/>
+                    <img id="project-image" src={img} alt="" srcset=""/>
                 </div>
             </div>
     

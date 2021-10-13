@@ -1,7 +1,7 @@
 import "./Hero.css"
 import React from 'react';
-import github from "../GitHub_Logo_White-5.png"
-import linkedIn from "../iconmonstr-linkedin-1.png"
+import github from "../../GitHub_Logo_White-5.png"
+import linkedIn from "../../iconmonstr-linkedin-1.png"
 
 const Hero = () => {
     return (
