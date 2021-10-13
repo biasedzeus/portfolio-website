@@ -21,9 +21,9 @@ const Hero = () => {
             <button className="resume-button">
                 Resume
             </button>
-            <a href="https://github.com/biasedzeus" target="_blank" ><img className="github-logo" src={github} alt="" srcset=""/></a>
+            <a href="https://github.com/biasedzeus" target="_blank" rel="noreferrer" ><img className="github-logo" src={github} alt="" srcset=""/></a>
             <span className="spanned-line">|</span>
-            <a href ="https://linkedin.com/bhanusingh" target="_blank"><img className ="linkedIn-logo" src={linkedIn} alt="" srcset=""/></a>
+            <a href ="https://linkedin.com/bhanusingh" target="_blank" rel="noreferrer"><img className ="linkedIn-logo" src={linkedIn} alt="" srcset=""/></a>
             </div>
 
             </div>
