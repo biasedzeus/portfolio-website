@@ -6,10 +6,10 @@ const Footer = () => {
             <div></div>
             <hr/>
             <div className="contactUS-container">
-             <div class="contact-item"><a href=""><img src="" alt=""/></a></div> 
-             <div class="contact-item"><a href=""><img src="" alt=""/></a></div> 
-             <div class="contact-item"><a href=""><img src="" alt=""/></a></div> 
-             <div class="contact-item"><a href=""><img src="" alt=""/></a></div> 
+             <div class="contact-item"><a href=".."><img src="" alt=""/></a></div> 
+             <div class="contact-item"><a href=".."><img src="" alt=""/></a></div> 
+             <div class="contact-item"><a href=".."><img src="" alt=""/></a></div> 
+             <div class="contact-item"><a href=".."><img src="" alt=""/></a></div> 
              
 
             </div>

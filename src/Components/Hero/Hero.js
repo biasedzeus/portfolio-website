@@ -22,9 +22,11 @@ const Hero = () => {
             <button className="resume-button">
                 Resume
             </button>
+            <div class="githubLinkedin">
             <a href="https://github.com/biasedzeus" target="_blank" rel="noreferrer" ><img className="github-logo" src={github} alt="" srcset=""/></a>
             <span className="spanned-line">|</span>
             <a href ="https://linkedin.com/bhanusingh" target="_blank" rel="noreferrer"><img className ="linkedIn-logo" src={linkedIn} alt="" srcset=""/></a>
+            </div>
             </div>
 
             </div>

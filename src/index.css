@@ -7,12 +7,33 @@ body {
   
 }
 
-html{
+body{
 
   background: rgb(147,79,236);
   background: linear-gradient(180deg, rgba(147,79,236,1) 0%, rgba(11,137,248,1) 14%, rgba(147,79,236,1) 65%, rgba(11,137,248,1) 80%, rgba(6,6,6,1) 100%);
 }
 
+html{
+  scroll-behavior: smooth;
+  scrollbar-width: normal;
+}
+html ::-webkit-scrollbar{
+  width: 1.2vw;
+}
+html ::-webkit-scrollbar-thumb{
+  background-color:darkgray;
+}
+html ::-webkit-scrollbar-thumb:hover{
+  background-color:lightskyblue;
+  transition: 200ms ease-in;
+}
 
+
+html ::-webkit-scrollbar-track{
+  background-color:gray !important;
+  
+
+
+}
 
 

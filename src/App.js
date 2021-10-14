@@ -9,16 +9,19 @@ function App() {
   return (
     <div>
       <Hero/>
-      <WhatIdo/>
-      <Projects/>
+      {/* <WhatIdo/>
       <Contact/>
       <Contact/>
       <Contact/>
       <Contact/>
       <Contact/>
       <Contact/>
+      <Contact/>
+      <Contact/> */}
 
-      <Footer/>
+      
+
+      {/* <Footer/> */}
     </div>
   );
 }
